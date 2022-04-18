@@ -23,10 +23,8 @@
 .header-menu a {
   display: inline-block;
   padding: 16px 0px;
-  font-size: 18px;
+
   position: relative;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 
 .header-menu a:after {
@@ -67,7 +65,7 @@
     gap: 12px;
   }
   .header-menu a {
-    background: #111111;
+    background: var(--cor-11);
     padding: 8px 12px;
     font-size: 14px;
   }
