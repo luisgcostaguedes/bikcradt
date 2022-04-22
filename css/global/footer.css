@@ -16,3 +16,18 @@
 .footer-contato ul {
   margin-bottom: 32px;
 }
+
+.footer-contato li::after {
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.footer li {
+  margin-bottom: 16px;
+}
+
+.footer-redes {
+  display: flex;
+  gap: 32px;
+}
