@@ -29,6 +29,6 @@ img {
   display: block;
 }
 
-img[src$=".jpg"] /* seleciona apenas igg com .jpg */ {
+img[src$=".jpg"] /* seleciona apenas img com .jpg */ {
   border-radius: 5px;
 }
